@@ -1,0 +1,20 @@
+1 Ans :- Multithreading refers to the concurrent execution of multiple threads within a single process. A thread is the smallest unit of execution, and multithreading allows multiple threads to run in parallel, sharing the resources of a process. This can improve efficiency and responsiveness in programs, particularly in tasks that involve waiting for external events, such as I/O operations.
+
+2 Ans:- Improved performance and responsiveness.
+Efficient utilization of CPU resources.
+Simultaneous execution of multiple tasks.
+Enhanced throughput for I/O-bound operations.
+Better resource management.
+
+3. Ans :- In Java, a thread is a lightweight, independent unit of execution within a process. Java provides built-in support for multithreading through the java.lang.Thread class and the java.util.concurrent package.
+
+4. Ans :- Extending the Thread class.
+Implementing the Runnable interface.
+
+5. Ans :- A process is an independent program with its own memory space, resources, and execution environment. A thread, on the other hand, is a lightweight unit of a process and shares the same resources with other threads in the same process. Threads within a process can communicate more easily than processes, but they also need to coordinate to avoid conflicts.
+
+6. Ans :- In Java, you can create daemon threads by calling the setDaemon(true) method on the Thread object before starting it. Daemon threads are background threads that automatically terminate when all non-daemon threads in the program have completed.
+
+7.Ans :- The wait() method is part of the object class and is used for synchronization. It makes a thread wait until another thread invokes the notify() or notifyAll() method for the same object.
+
+The sleep() method, on the other hand, is a static method of the Thread class. It pauses the execution of the current thread for a specified amount of time.
